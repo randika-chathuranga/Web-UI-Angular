@@ -3,16 +3,16 @@
 }
 
 .all-movies{
-  width: 75%;
+  width: 100%;
   min-height: calc(100vh - 80px);
   border-right: 1px solid #fdc827;
-  padding: 20px 40px;
+  padding: 20px 20px;
 }
 
-.popular-movies{
+/* .popular-movies{
   width: 25%;
   min-height: calc(100vh - 80px);
-}
+} */
 
 .top{
   display: flex;
@@ -31,7 +31,21 @@ h4{
   cursor: pointer;
 }
 
-.movies-thumbnail{
+.movies-thumbnail {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.cover {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.theatre-movies{
+  margin-top: 20px;
 }
